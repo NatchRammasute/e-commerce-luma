@@ -37,6 +37,13 @@ const Button = styled.button`
     color:gray;
     cursor: pointer;
     font-weight: 500;
+    transition: all 0.5s ease;
+
+    &:hover{
+        background-color: #eca3a3 ;
+        color: white;
+        transform: scale(1.3);
+    }
 `
 
 
