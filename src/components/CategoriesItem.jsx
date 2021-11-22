@@ -7,6 +7,8 @@ const Container = styled.div`
     margin: 3px;
     height: 70vh;
     position: relative;
+    filter: none;
+    transition: all 0.5s ease;
 `
 const Image = styled.img`
     width: 100%;
